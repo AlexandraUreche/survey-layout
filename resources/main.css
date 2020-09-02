@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+.page-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #d3d3d3;
+    font-family:'Open Sans', sans-serif;
+    font-size:11px;
+    font-weight: 600;
+}
+
+header{
+    height: 30%;
+}
+
+.title-wrapper
+{
+    height: 100%;
+    width: 30%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.image-wrapper{
+   
+    background-image: url(../assets/step-1.png);
+    
+}
+.image-wrapper2{
+    background-image: url(../assets/step-2.png);
+    
+}
+.image-wrapper, .image-wrapper2{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    position: absolute;
+    background: #d3d3d3;
+    height: 20%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.survey-container, .buttons-wrapper{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.survey-container{
+    height: 60%;
+    background: #fff;
+    padding: 2%;
+}
+
+.intro p:first-child{
+    margin-top:0;
+}
+
+.survey-container form{
+    margin-top: 5%;
+}
+
+.input-validation:invalid:focus,
+.input-validation:required:invalid
+ {
+    background-image: linear-gradient(to right, pink, #fff);
+}
+
+.input-validation:disabled {
+    background: rgb(0, 0, 255, 0.2);
+}
+
+input[type="email"]{
+    height:30px;
+    width: 50%;
+    padding: 15px 0 15px 35px;
+    border: 1px solid grey;
+}
+.input-icons i { 
+    position: absolute; 
+} 
+ 
+.input-icons { 
+     
+    margin-top:10px;
+    margin-bottom: 15px; 
+    color: rgb(194, 194, 194)
+} 
+  
+.fas { 
+    padding: 10px;  
+    text-align: center; 
+}  
+
+
+.answers-wrapper div input[type="radio"],
+.answers-wrapper div label,
+.multiple-answers-wrapper div input[type="checkbox"],
+.multiple-answers-wrapper div label {
+    vertical-align: middle;
+}
+
+form .question-text{
+    padding: 2% 0 2% 0;
+}
+
+.answers-wrapper div{
+    margin-bottom: 10px;
+}
+
+input[type="other"]
+{
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.buttons-wrapper .nav-wrapper,
+.buttons-wrapper  .nav-wrapper2
+{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    
+}
+
+.answerpad-wrapper,
+.scale-text-wrapper,
+.scale-body-container {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.answerpad-wrapper,
+.scale-text-wrapper{
+    width: 50%;
+}
+.scale-body-container{
+    width: 100%;
+}
+
+.scale-button button,
+.scale-button-images button{
+    font-weight: 100;
+    background-color: #afafaf;
+    color: white;
+    font-size: 15px;
+    border: none;
+    
+}
+
+.scale-button button{
+    width: 35px;
+    height: 35px;    
+}
+
+.scale-button-images button{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    
+}
+
+.scale-button:nth-child(3) button,
+.scale-button-images:nth-child(2) button{
+    background: #38daa1;
+}
+
+.scale-body-container .scale-button-images img{
+    width: 70%;
+    height: auto;
+}
+
+.scale-text-wrapper{
+    padding: 5px 0 20px 0;
+    font-size:10px;
+}
+
+.scale-text-wrapper div{
+    width: 100px;
+}
+
+.scale-text-wrapper div:last-child{
+    text-align: end;
+}
+
+.multiple-answers-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.answerpad-wrapper div label img{
+    width: 100%;
+    height: auto;
+}
+
+.buttons-wrapper .nav-wrapper{
+    justify-content: center;
+}
+
+.buttons-wrapper a,.buttons-wrapper button{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    border-radius: 15px;
+    padding-top: 10px;
+    height: 40px;
+    width: 100px;
+   
+}
+.buttons-wrapper .nav-wrapper a,
+.buttons-wrapper .nav-wrapper2 button,
+.buttons-wrapper .nav-wrapper2 a{
+    border: none;
+}
+
+.buttons-wrapper .nav-wrapper a,
+.buttons-wrapper .nav-wrapper2 button
+ {
+    background: #38daa1;
+}
+
+.buttons-wrapper .nav-wrapper2 a{
+    background: #afafaf;
+}
+
+.buttons-wrapper .nav-wrapper2 button{
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+    margin-left: 70%;
+}
+

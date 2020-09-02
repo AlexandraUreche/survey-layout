@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey 1st page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Survey layout">
+    <meta name="keyword" content="Assignment">
+    <meta name="author" content="Alexandra Ureche">
+    <link href="bundles/font-awesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="title-wrapper">
+                <div class="image-wrapper">
+                </div>
+                <h1>Notifications Survey</h1>
+            </div>
+        </header>
+        <div class="survey-container">
+            <div class="intro">
+                <p>We're working on our notification system to make our product work better.</p>
+                <p>The survey constists in several questions and usually takes 5-7 minutes to complete.</p>
+            </div>
+            <form action="/action_page.php">
+                <div class="email-wrapper">
+                    <label for="email">Enter your email:</label>
+                    <div class="input-icons">
+                        <i class="fas fa-envelope"></i>
+                        <input required class="input-validation" type="email" name="email_input" id="email"
+                            placeholder="Your answer" />
+                    </div>
+                </div>
+
+                <div class="question-text">Are you an admin on our Board?</div>
+                <div class="answers-wrapper">
+                    <div>
+                        <input type="radio" id="Q1code1" name="tech" value="Q1code1">
+                        <label for="Q1code1">Admin</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Q1code2" name="tech" value="Q1code2">
+                        <label for="Q1code2">Member</label>
+                    </div>
+                </div>
+                
+                <div class="question-text">How do you collaborate in our Board?</div>
+                <div class="answers-wrapper">
+                    <div>
+                        <input type="radio" id="Q2code1" name="tech" value="Q2code1">
+                        <label for="Q2code1">Create and edit content</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Q2code2" name="tech" value="Q2code2">
+                        <label for="Q2code2">Comment and leave comment</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Q2code3" name="tech" value="Q2code3">
+                        <label for="Q2code3">Just review created comment</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Q2code4" name="tech" value="Q2code4">
+                        <label for="Q2code4">Other:</label> <input type="other" maxlength="50" name="Q2_other" id="Q2_other" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="buttons-wrapper">
+            <nav class="nav-wrapper">
+                <a target="_parent" href="SecondPage.html">NEXT</a>
+            </nav>
+        </div>
+
+    </div>
+</body>
+
+</html>
