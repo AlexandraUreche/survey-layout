@@ -141,7 +141,8 @@ input[type="other"]
 
 .answerpad-wrapper,
 .scale-text-wrapper,
-.scale-body-container {
+.scale-body-container,
+.scale-body-container-images {
     
     display: flex;
     justify-content: space-between;
@@ -150,7 +151,8 @@ input[type="other"]
 .scale-text-wrapper{
     width: 50%;
 }
-.scale-body-container{
+.scale-body-container,
+.scale-body-container-images{
     width: 100%;
 }
 
@@ -181,7 +183,7 @@ input[type="other"]
     background: #38daa1;
 }
 
-.scale-body-container .scale-button-images img{
+.scale-body-container-images .scale-button-images img{
     width: 70%;
     height: auto;
 }
