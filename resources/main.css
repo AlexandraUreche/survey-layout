@@ -40,6 +40,7 @@ header{
     background-image: url(../assets/step-2.png);
     
 }
+/* aici puteai sa pui o clasa doar pentru setul acesta de reguli comune, de exemplu general-image-wrapper si sa lasi clasele aceastea doar pt ce e diferit, background-image in cazul tau */
 .image-wrapper, .image-wrapper2{
     width: 100%;
     height: 100%;
