@@ -32,16 +32,21 @@ header{
     position: relative;
 }
 .image-wrapper{
-   
-    background-image: url(../assets/step-1.png);
+  
+   background-image: url(../assets/step-1.png);
     
 }
 .image-wrapper2{
     background-image: url(../assets/step-2.png);
     
 }
-/* aici puteai sa pui o clasa doar pentru setul acesta de reguli comune, de exemplu general-image-wrapper si sa lasi clasele aceastea doar pt ce e diferit, background-image in cazul tau */
-.image-wrapper, .image-wrapper2{
+/* aici puteai sa pui o clasa doar pentru setul 
+acesta de reguli comune, de exemplu general-image-wrapper
+ si sa lasi clasele aceastea doar pt ce e diferit,
+  background-image in cazul tau */
+
+  
+  .image-wrapper,.image-wrapper2 {
     width: 100%;
     height: 100%;
     background-size: contain;
@@ -132,13 +137,6 @@ input[type="other"]
     border-bottom: 1px solid grey;
 }
 
-.buttons-wrapper .nav-wrapper,
-.buttons-wrapper  .nav-wrapper2
-{
-    padding: 20px 0px 0px 0px;
-    display: flex;
-    
-}
 
 .answerpad-wrapper,
 .scale-text-wrapper,
@@ -215,41 +213,37 @@ input[type="other"]
     height: auto;
 }
 
-.buttons-wrapper .nav-wrapper{
-    justify-content: center;
+
+.buttons-wrapper 
+{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-.buttons-wrapper a,.buttons-wrapper button{
+.buttons-wrapper button, .buttons-wrapper a{
+    font-family:'Open Sans', sans-serif;
+    border: none;
     text-decoration: none;
     color:#fff;
     font-size: 15px;
     text-align: center;
     font-weight: 100;
     border-radius: 15px;
-    padding-top: 10px;
     height: 40px;
     width: 100px;
    
 }
-.buttons-wrapper .nav-wrapper a,
-.buttons-wrapper .nav-wrapper2 button,
-.buttons-wrapper .nav-wrapper2 a{
-    border: none;
+.NextButton{
+    margin:0 auto;
 }
 
-.buttons-wrapper .nav-wrapper a,
-.buttons-wrapper .nav-wrapper2 button
- {
-    background: #38daa1;
+.buttons-wrapper .nButton,
+.buttons-wrapper  button[type="submit"]
+{    background: #38daa1;
 }
 
-.buttons-wrapper .nav-wrapper2 a{
+.buttons-wrapper .bButton{
     background: #afafaf;
 }
-
-.buttons-wrapper .nav-wrapper2 button{
-    padding: 0;
-    font-family:'Open Sans', sans-serif;
-    margin-left: 70%;
-}
-

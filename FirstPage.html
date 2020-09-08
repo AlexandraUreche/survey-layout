@@ -41,44 +41,50 @@
                 <div class="question-text">Are you an admin on our Board?</div>
                 <div class="answers-wrapper">
                     <div>
-                        <!-- atributul name trebuie si el sa fie sugestiv, de exemplu aici "role" -->
-                        <input type="radio" id="Q1code1" name="tech" value="Q1code1">
+                        <!-- atributul name trebuie si el
+                             sa fie sugestiv, de exemplu aici "role" -->
+                        <input type="radio" id="Q1code1" name="role" value="Q1code1">
                         <label for="Q1code1">Admin</label>
                     </div>
                     <div>
-                        <input type="radio" id="Q1code2" name="tech" value="Q1code2">
+                        <input type="radio" id="Q1code2" name="role" value="Q1code2">
                         <label for="Q1code2">Member</label>
                     </div>
                 </div>
-                
+
                 <div class="question-text">How do you collaborate in our Board?</div>
                 <div class="answers-wrapper">
                     <div>
-                        <!-- exemplu sugestiv de nume aici "collaboration_type" -->
-                        <input type="radio" id="Q2code1" name="tech1" value="Q2code1">
+                        <!-- exemplu sugestiv de nume aici 
+                            "collaboration_type" -->
+                        <input type="radio" id="Q2code1" name="collaboration_type" value="Q2code1">
                         <label for="Q2code1">Create and edit content</label>
                     </div>
                     <div>
-                        <input type="radio" id="Q2code2" name="tech1" value="Q2code2">
+                        <input type="radio" id="Q2code2" name="collaboration_type" value="Q2code2">
                         <label for="Q2code2">Comment and leave comment</label>
                     </div>
                     <div>
-                        <input type="radio" id="Q2code3" name="tech1" value="Q2code3">
+                        <input type="radio" id="Q2code3" name="collaboration_type" value="Q2code3">
                         <label for="Q2code3">Just review created comment</label>
                     </div>
                     <div>
-                        <input type="radio" id="Q2code4" name="tech1" value="Q2code4">
-                        <label for="Q2code4">Other:</label> <input type="other" maxlength="50" name="Q2_other" id="Q2_other" />
+                        <input type="radio" id="Q2code4" name="collaboration_type" value="Q2code4">
+                        <label for="Q2code4">Other:</label> <input type="other" maxlength="50" name="Q2_other"
+                            id="Q2_other" />
                     </div>
                 </div>
             </form>
         </div>
         <div class="buttons-wrapper">
-            <!-- nav are sens sa il folosesti pentru meniu de navigare, aici nu ai meniu, ai doar un buton -->
+            <!-- nav are sens sa il folosesti pentru meniu de navigare,
+                 aici nu ai meniu, ai doar un buton -->
             <!-- era mai ok sa fie un <button> decat <a> -->
-            <nav class="nav-wrapper">
-                <a target="_parent" href="SecondPage.html">NEXT</a>
-            </nav>
+            <div class="NextButton">
+                <button class="nButton">
+                    <a target="_parent" href="SecondPage.html">NEXT</a>
+                </button>
+            </div>
         </div>
 
     </div>
